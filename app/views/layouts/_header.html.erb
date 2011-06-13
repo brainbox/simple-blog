@@ -1,0 +1,16 @@
+<head>
+	 <meta name="description"
+ content="my blog site"/>
+  <meta name="keywords"
+ content="replace, keywords, content, etc"/>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>my_name Summer Project Blog </title>
+    <%= stylesheet_link_tag 'scaffold' %>
+</head>
+<body>
+<p><%= link_to "Home", posts_path %>
+<%= link_to "Login", "/login" %> 
+<%= link_to "Logout", "/logout" %> 
+	
+<p align ="center" style="color: green"><%= flash[:notice] %></p>
+
