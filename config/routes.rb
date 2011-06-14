@@ -10,7 +10,7 @@ Blog::Application.routes.draw do
   match 'login' => 'sessions#new', :as => :login
 
   match 'logout' => 'sessions#destroy', :as => :logout
-
+  match '/posts/rss' => 'posts#rss'
   match '/activate/:activation_code' => 'users#activate', :as => :activate, :activation_code => nil
 
   resources :posts do

@@ -2,7 +2,7 @@ xml.instruct! :xml, :version=>"1.0"
 
 xml.rss(:version => '2.0') do
     xml.channel do
-        xml.title('<put your name> summer project blog')
+        xml.title('<Ladapo Olakunle> summer project blog')
         xml.link('http://stormy-frost-716.heroku.com/')
         xml.description('This is my blog about what I did on the group project this summer')
         xml.language('en-us')
